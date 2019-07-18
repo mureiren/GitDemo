@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Automation tests]">
+  <test thread-count="5" verbose="0" name="ParamTest(failed)">
+    <classes>
+      <class name="testframework.WifiConnectionTest">
+        <parameter name="param-class" value="Test"/>
+        <parameter name="SampleApp" value="SampleAppium.apk"/>
+        <methods>
+          <include name="setupAMethod"/>
+          <include name="setupClickPrefCode"/>
+          <include name="tearDown"/>
+          <include name="clickOnPrefDependency"/>
+          <include name="startAppiumServer"/>
+          <include name="closeAppiumServer"/>
+          <include name="settingWifi"/>
+        </methods>
+      </class> <!-- testframework.WifiConnectionTest -->
+    </classes>
+  </test> <!-- ParamTest(failed) -->
+</suite> <!-- Failed suite [Automation tests] -->

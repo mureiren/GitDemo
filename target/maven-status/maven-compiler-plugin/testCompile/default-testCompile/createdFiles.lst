@@ -1,0 +1,6 @@
+stepdefinitions\NewSteps.class
+testframework\ATurnToggleSwitchOnTest.class
+testframework\WifiConnectionTest.class
+testframework\YChildCheckBoxTest.class
+stepdefinitions\Hooks.class
+cucumberOptions\TestRunnerTest.class

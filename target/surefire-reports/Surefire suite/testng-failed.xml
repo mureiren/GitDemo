@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="androidapp.chromeTest">
+        <methods>
+          <include name="startup"/>
+        </methods>
+      </class> <!-- androidapp.chromeTest -->
+      <class name="testframework.VerifySwitchPreferenceTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="toggleSwitchButton"/>
+          <include name="clickingPreferenceButton"/>
+          <include name="capabilities"/>
+          <include name="clickingPrefCode"/>
+        </methods>
+      </class> <!-- testframework.VerifySwitchPreferenceTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

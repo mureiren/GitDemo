@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Automation tests">
+    <test name="ParamTest">
+      <classes>
+          <class name="testframework.WifiConnectionTest">
+              <parameter name="param-class" value="Test"/>
+              <parameter name="SampleApp" value="SampleAppium.apk"/>
+          </class>
+
+          <class name="testframework.ATurnToggleSwitchOnTest">
+              <parameter name="SampleApp" value="SampleAppium.apk"/>
+          </class>
+
+          <class name="testframework.YChildCheckBoxTest">
+              <parameter name="SampleApp" value="SampleAppium.apk"/>
+          </class>
+
+      </classes>
+
+    </test>
+</suite>
+
+

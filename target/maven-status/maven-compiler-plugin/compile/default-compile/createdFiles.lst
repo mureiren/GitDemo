@@ -1,0 +1,10 @@
+pageObjects\PrefCodePage.class
+pageObjects\ChildObjectPage.class
+resources\BaseTest.class
+pageObjects\TogglePage.class
+com\App.class
+pageObjects\WifiPage.class
+pageObjects\PrefDependencyPage.class
+utilities\WaitTypes.class
+utilities\UserInfo.class
+pageObjects\InitialPreferencePage.class
